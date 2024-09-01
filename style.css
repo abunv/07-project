@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 660px;
+    height: 400px;
+}
+
+.orange {
+    background-color: #e88b12fe;
+    border-radius: 15px 0 0 15px;
+}
+
+.blue {
+    background-color: #009999;
+}
+
+.green {
+    background-color: #004d39;
+    border-radius: 0 15px 15px 0;
+}
+
+.col {
+    position: relative;
+    height: 100%;
+    padding: 30px;
+}
+
+.car-box {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.orange .car-box {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #ee7700;
+}
+
+.blue .car-box {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #037e7e;
+}
+
+.green .car-box {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #013426;
+}
+
+.car {
+    position: absolute;
+    top: 2px;
+    left: 15px;
+    width: 35px;
+    height: 35px;
+    opacity: 1;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 23px;
+    padding: 30px 0px;
+    color: rgb(237, 234, 234);
+}
+
+.text {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    color: rgb(237, 234, 234);
+    line-height:  20px;;
+}
+
+.orange .btn {
+    position: absolute;
+    top: 330px;
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #ffa31a;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.orange .btn:hover {
+    font-size: 13px;
+    color: #fca015;
+}
+
+.blue .btn {
+    position: absolute;
+    top: 330px;
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #009999;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.blue .btn:hover {
+    font-size: 13px;
+    color: #029191;
+}
+
+.green .btn {
+    position: absolute;
+    top: 330px;
+    width: 110px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: #fff;
+    color: #004d39;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.green .btn:hover {
+    font-size: 13px;
+    color: #013b2c;
+}
+
+
